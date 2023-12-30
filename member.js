@@ -3,9 +3,6 @@ function skillMember() {
     restrict: 'E',
     scope: {
       member: '=',
-      memberClass: '=',
-      memberIndex: '=',
-      memberCount: '=',
     },
     templateUrl: 'skill-member.html',
   };
